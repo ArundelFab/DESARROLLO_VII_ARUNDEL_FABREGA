@@ -2,16 +2,15 @@
 $nombre = "juan";
 $edad = 25;
 
-$presentacion1 = "hola, mo nombre es" . $nombre . "y tengo" . $edad . "años.";
+echo "hola, mundo! <br>";
+echo "mi nombre es $nombre <br>";
 
-$presentacion2 = "hola, mi nombre es $nombre y tengo $edad años.";
+print "tengo $edad años <br>";
 
-define("SALUDO","¡BIEVENIDO!");
+printf("me llamo %s y tengo %d años <br>", $nombre, $edad);
 
-$mensaje = SALUDO ." ". $nombre;
-echo $presentacion1 ."<br>";
-echo $presentacion2 ."<br>";
-echo $mensaje ."<br>";
+var_dump($nombre);
+echo "<br>";
 
 
 ?>
